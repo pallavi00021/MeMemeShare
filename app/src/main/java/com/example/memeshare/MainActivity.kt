@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
                         isFirstResource: Boolean
                     ): Boolean {
                         progressbar.visibility= View.GONE
-                        return false
+                        return true
                     }
 
                     override fun onResourceReady(
